@@ -1,5 +1,5 @@
 public class Greet {
-    private String hellWorld(){
-        return "Hello World!";
+    private String hellWorld(String name){
+        return String.format("Hello %s", name);
     }
 }
