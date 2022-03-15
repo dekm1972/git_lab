@@ -1,5 +1,5 @@
 public class Greet {
-    private String goodDayWorld(String name){
-        return String.format("Good day %s", name);
-    }
+    private String goodDayWorld(String name, String language){
+        return String.format("Good day %s from %s", name, language);
+        }
 }
